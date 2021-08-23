@@ -19,22 +19,19 @@ reader.question("What would you like to calculate?", function(input){
 	console.log('num2', num2);
 
 	   if (mathSymbol === "+"){
-            console.log(num1 + num2);
+        console.log('Answer:', num1 + num2);
       } 
 	  if (mathSymbol === "-"){
-		console.log(num1 - num2);
+		console.log('Answer:',num1 - num2);
   	  }
 	  if (mathSymbol === "*"){
-			console.log(num1 * num2);
+	 	console.log('Answer:',num1 * num2);
 	  }
 	  if (mathSymbol === "/"){
-		console.log(num1 / num2);
- 	  }
-	  if (mathSymbol === "/"){
-		console.log(num1 / num2);
+		console.log('Answer:',num1 / num2);
  	  }
 	  if (Math.sqrt(num1) % 1 === 0) {
-		  console.log(Math.sqrt(num1));
+		console.log('Square root of ' + num1 + ' is:' , Math.sqrt(num1));
 	  }
 	
 	// This line closes the connection to the command line interface.
